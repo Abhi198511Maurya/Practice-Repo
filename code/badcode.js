@@ -16,7 +16,7 @@ y = 30
 const z = 40
 z = 50 // ❌ Trying to reassign a const
 
-function unusedFunction() {
+    function unusedFunction() {
     let a = 1
     let b = 2
     return // ❌ no return value
