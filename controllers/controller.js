@@ -1,4 +1,4 @@
-var foo_name = 'hello' // 'foo' is assigned a value but never used
+var foo = 'hello' // 'foo' is assigned a value but never used
 
 function sayHello(name) {
     console.log("Hi, " + name)
