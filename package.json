@@ -2,10 +2,12 @@
   "name": "demo-projects",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon app.js",
     "dev": "node app.js",
-    "build": "npm run build"
+    "build": "npm run build",
+    "lint": "npx eslint ."
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,10 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
-    "eslint": "^9.29.0"
+    "@eslint/js": "^9.29.0",
+    "eslint": "^9.29.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.2.0",
+    "husky": "^9.1.7"
   }
 }
